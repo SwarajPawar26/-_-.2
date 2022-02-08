@@ -1,0 +1,597 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url('5651990.jpg');
+    clip-path: polygon(50% 0%, 100% 0, 100% 82%, 34% 70%, 0 82%, 0 0);
+    margin-bottom: 10px;
+
+}
+    
+
+.logo{
+    color: white;
+    font-size: 50px;
+    padding-left: 75px;
+    margin-top: 15px;
+    font-family:Helvetica;
+    font-weight: bold;
+
+}
+
+.logo span{
+    color: rgb(255, 123, 0);
+}
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 22px;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+.menu a:hover{
+    background-color: rgb(3, 58, 129);
+    border-radius: 5px;
+}
+
+navi{
+    display: flex;
+    width: 100%;
+    height: 75px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Intro{
+    padding-left: 10%;
+    padding-top: 10%;
+    line-height-step: 2px;
+    letter-spacing: 2px;
+}
+
+.Intro p{
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+}
+
+.Intro h1{
+    font-size: 60px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+ .btn{
+    color: #fff;
+    background-color: rgb(196, 8, 8);
+    font-size: 17px;
+    font-family:sans-serif;
+    width: 100px;
+    height: 53px;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.Intro .btn:hover{
+    color: black;
+    background-color: rgb(199, 223, 255);
+    
+}
+#About{
+    padding: 2px 50px;
+    padding-top: 2px;
+    position: relative;
+    margin-top: 2px;;
+    margin-bottom: 120px;
+}
+
+.Info{
+    font-weight: bold;
+    text-align: center;
+}
+
+.Info h1{
+    font-size: 48px;
+    font-family:Arial, Helvetica;
+    color: rgb(16, 3, 41);
+}
+
+span{
+    color: rgb(255, 111, 15);
+}
+
+ .content{
+     align-items: center;
+     justify-content:space-between;
+     flex-basis: 50%;
+     display: flex;
+ }
+ .content img{
+     display: flex;
+     box-shadow: 0px 0px 20px black;
+     width: 500px;
+     margin-left: 10px;
+     margin-top: 20px;
+     flex-basis: 50%;
+      
+ }
+
+.Info2{
+     float: right;
+     margin-bottom: 100px;
+     justify-content: center;
+     flex-basis: 50%;
+     padding-left: 3px;
+     padding-top: 50px;
+
+ }
+
+ .Info2 p{
+     
+     font-size: 18px;
+     text-align: justify;
+     letter-spacing: 1px;
+     font-weight: bold;
+     font-family: Helvetica;
+
+ }
+ #skills{
+     display: block;
+     justify-content: center;
+     background-image: url(wp7453603-portfolio-wallpapers.jpg);
+     clip-path: polygon(50% 0%, 100% 0, 100% 83%, 50% 100%, 0 81%, 0 0);
+     padding: 50px 50px;
+     flex-basis: 50%;
+     align-items: center;
+     
+     
+     
+ }
+
+ 
+ .Info3 h1{
+     font-size: 48px;
+     color: white;
+     text-align: center;
+     justify-content: center;
+     font-family: Arial, Helvetica;
+ }
+ 
+ .Skills-Info{
+     justify-content: center;
+     align-items: center;
+     margin-top: 30px;
+ }
+
+ .Skills-Info p{
+     width: 50%;
+     color: white;
+     font-size: 18px;
+     text-align: justify;
+     font-weight: bold;
+     font-family: Helvetica;
+     align-items: center;
+     margin-left: 350px;
+     
+    
+ }
+ .content2{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+ }
+
+ .content2  img{
+     
+     display: block;
+     width: 40%;
+     margin-left: 190px;
+     margin-right: auto;
+     justify-self: left;
+    
+ }
+
+ .content2 img:hover {
+    transform-origin: center;
+    animation: scale 500ms ease-in-out forwards;
+  }
+
+  @keyframes scale {
+    to {
+      transform: scale(1.2);
+    }
+  }
+
+  
+.image5 img{
+    display: block;
+    width: 22%;
+    justify-self: center;
+    margin-right: 25px;
+    margin-top: 22px;
+ }
+
+ .skill progress{
+     justify-content: center;
+     width: 150px;
+     color: white;
+     text-align: right; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    border-radius: 2px; 
+    margin-bottom: 20px;
+    
+   
+ }
+ 
+ .skill-bar{
+     width: 500px;
+     margin-bottom: 15px;
+     align-items: center;
+     justify-content: center;
+     margin-left: 450px;
+     background-color: rgba(255, 255, 255, 0.445);
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 20px;
+     border-radius: 7px;
+ }
+.skill-bar:hover{
+    transform-origin: center;
+    animation: scale ms ease-in-out forwards;
+}
+
+
+ @keyframes load{
+     from{
+         width: 0%;
+     }
+ }
+ @-webkit-keyframes load{
+    from{
+        width: 0%;
+    }
+ }
+ @-moz-keyframes load{
+    from{
+        width: 0%;
+    }
+ }
+
+ h2{
+     font-family:  sans-serif;
+     font-size: 18px;
+     font-weight: bold;
+     color: rgb(23, 0, 126);
+     margin: 0;
+     padding: 0;
+     justify-content: center;
+     margin-top: 5px;
+ }
+ .container sl h2{
+     margin-bottom: 16px;
+ }
+
+ .bar::before{
+     content: "";
+     background-color : rgb(0, 0, 255);
+     display: inline-block;
+     padding: 8px;
+     animation: load 3s 0s;
+     -webkit-animation: load 3s 0s;
+     -moz-animation: load 3s 0s;
+     -o-animation: load 3s 0s;
+     border-radius: 6px;
+     
+ }
+
+ 
+
+ .bar.html::before{
+     width: calc(90% - 10px);
+ }
+
+ 
+ .bar.js::before{
+    width: calc(70% - 10px);
+}
+.bar.css::before{
+    width: calc(80% - 10px);
+}
+.bar.cpp::before{
+    width: calc(90% - 10px);
+}
+
+#services{
+    display: block;
+    justify-content: center;
+    padding: 50px 50px;
+     flex-basis: 50%;
+     align-items: center;
+}
+
+
+.servH{
+     font-size: 34px;
+     color: rgb(16, 3, 41);
+     text-align: center;
+     justify-content: center;
+     font-family: Arial, Helvetica;
+}
+
+.servH span{
+    color:rgb(255, 111, 15) ;
+}
+
+.Serv-Info{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    align-items: center;
+    justify-self: center;
+    margin: auto;
+    margin-top: 60px;
+    margin-left: 220px;
+}
+
+.Serv-Info{
+    justify-content: center;
+    text-align: justify;
+}
+
+.Serv-Info h2{
+    
+    text-align: center;
+    display: flex;
+    font-size: 35px;
+    color: black;
+
+}
+
+.Serv-Info .Web-D{
+    margin-right: 10em;
+    height: 20em;
+    width: 85%;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px black;
+    padding:4px 15px;
+    border-radius: 8px;
+    background: linear-gradient(to top,rgb(10, 75, 150) 50%, rgb(223, 220, 238) 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+}
+
+.Serv-Info .Web-D:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(0, 62, 124);
+}
+.Serv-Info h2{
+    margin-top: 5px;
+    
+}
+.Serv-Info h2:hover{
+    transition: .8s ease-in-out;
+    color: rgb(220, 241, 255);
+    
+}
+
+.Serv-Info .UD{
+    margin-right: 10em;
+    height: 20em;
+    width: 85%;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(218, 225, 255);
+    box-shadow: 0 0 20px black;
+    padding:4px 15px;
+    border-radius: 8px;
+    background: linear-gradient(to top,rgb(10, 75, 150) 50%, rgb(223, 220, 238) 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+}
+.Serv-Info .UD:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(0, 62, 124);
+}
+
+.Serv-Info .TD{
+    margin-right: 10em;
+    height: 20em;
+    width: 85%;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(218, 225, 255);
+    box-shadow: 0 0 20px black;
+    padding:4px 15px;
+    border-radius: 8px;
+    background: linear-gradient(to top,rgb(10, 75, 150) 50%, rgb(223, 220, 238) 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+}
+.Serv-Info .TD:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(0, 62, 124);
+}
+.Serv-Info p{
+    font-size: 20px;
+    font-family: Helvetica;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#Contact{
+    
+    display: block;
+     justify-content: center;
+     background-image: url(5652012.jpg);
+     height: 100vh;
+     background-size: 100%;
+     padding-top: 70px;
+     flex-basis: 100%;
+     align-items: center;
+     margin-top: 50px;
+     
+
+}
+
+.contact-us{
+    margin-left: 350px;
+    
+    display: flex;
+    justify-content: center;
+    float: right;
+    margin-right: 200px;
+    margin-top: 5em;
+    width: 150px;
+    
+}
+
+.head h1{
+    font-size: 48px;
+     color: rgb(238, 228, 255);
+     text-align: center;
+     justify-content: center;
+     font-family: Arial, Helvetica;
+     margin-top: 5px;
+    
+}
+
+.head span{
+    color:rgb(255, 111, 15) ;
+}
+
+.contact-us form input{
+    width: 20em;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+
+.contact-us .btn{
+    height: 40px;
+    transition: .4s ease-in-out;
+    font-weight: bold;
+}
+
+.contact-us h2{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.contact-us .btn:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.icons ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 53%;
+    margin-left: 21em;
+    background-size: 25em;
+    
+}
+
+.icons a{
+    display: block;
+    color: black;
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    margin: 10px 10px;
+    padding: 0px 2px;
+    background-color: rgb(60, 7, 184);
+    border-radius: 50%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 14em;
+    margin-left: 50px;
+    transition: .4s ease-in-out;
+    
+}
+
+.icons a:hover{
+    color: #3b5998;
+    background-color: white;
+}
+
+.icons ul .fa{
+    
+    font-size: 35px;
+    line-height: 72px;
+    transition: .2s ease-in-out;
+    width: 65px;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.icons ul .fa-facebook{
+    color: white;
+    transition: .5s ease-in-out;
+}
+
+.icons ul .fa-facebook:hover{
+    color: #4267B2;
+    
+}
+
+.icons ul .fa-instagram{
+    color: white;
+    transition: .5s ease-in-out;
+}
+
+.icons ul .fa-instagram:hover{
+    color: #8a3ab9;
+    
+}
+
+.icons ul .fa-twitter{
+    color: white;
+    transition: .5s ease-in-out;
+}
+
+.icons ul .fa-twitter:hover{
+    color: #1DA1F2;
+    
+}
+
+.icons ul .fa-linkedin{
+    color: white;
+    transition: .5s ease-in-out;
+}
+
+.icons ul .fa-linkedin:hover{
+    color: #0e76a8;
+    
+}
+
+
+
